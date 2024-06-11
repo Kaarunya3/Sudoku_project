@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./verify.css">
+    <title>Verify a sudoku</title>
+</head>
+
+<body>
+    <br><br>
+    <marquee><h2>Verify</h2></marquee>
+    <div class="form">
+        <form action="">
+            <table>
+                <tr id="r1">
+                    <td><input type="text" name="1,1" id="1,1"></td>
+                    <td><input type="text" name="1,2" id="1,2"></td>
+                    <td id="c3"><input type="text" name="1,3" id="1,3"></td>
+                    <td><input type="text" name="1,4" id="1,4"></td>
+                    <td><input type="text" name="1,5" id="1,5"></td>
+                    <td id="c6"><input type="text" name="1,6" id="1,6"></td>
+                    <td><input type="text" name="1,7" id="1,7"></td>
+                    <td><input type="text" name="1,8" id="1,8"></td>
+                    <td><input type="text" name="1,9" id="1,9"></td>
+                </tr>
+                <tr id="r2">
+                    <td><input type="text" name="2,1" id="2,1"></td>
+                    <td><input type="text" name="2,2" id="2,2"></td>
+                    <td id="c3"><input type="text" name="2,3" id="2,3"></td>
+                    <td><input type="text" name="2,4" id="2,4"></td>
+                    <td><input type="text" name="2,5" id="2,5"></td>
+                    <td id="c6"><input type="text" name="2,6" id="2,6"></td>
+                    <td><input type="text" name="2,7" id="2,7"></td>
+                    <td><input type="text" name="2,8" id="2,8"></td>
+                    <td><input type="text" name="2,9" id="2,9"></td>
+                </tr>
+                <tr id="r3">
+                    <td><input type="text" name="3,1" id="3,1"></td>
+                    <td><input type="text" name="3,2" id="3,2"></td>
+                    <td id="c3"><input type="text" name="3,3" id="3,3"></td>
+                    <td><input type="text" name="3,4" id="3,4"></td>
+                    <td><input type="text" name="3,5" id="3,5"></td>
+                    <td id="c6"><input type="text" name="3,6" id="3,6"></td>
+                    <td><input type="text" name="3,7" id="3,7"></td>
+                    <td><input type="text" name="3,8" id="3,8"></td>
+                    <td><input type="text" name="3,9" id="3,9"></td>
+                </tr>
+                <tr id="r4">
+                    <td><input type="text" name="4,1" id="4,1"></td>
+                    <td><input type="text" name="4,2" id="4,2"></td>
+                    <td id="c3"><input type="text" name="4,3" id="4,3"></td>
+                    <td><input type="text" name="4,4" id="4,4"></td>
+                    <td><input type="text" name="4,5" id="4,5"></td>
+                    <td id="c6"><input type="text" name="4,6" id="4,6"></td>
+                    <td><input type="text" name="4,7" id="4,7"></td>
+                    <td><input type="text" name="4,8" id="4,8"></td>
+                    <td><input type="text" name="4,9" id="4,9"></td>
+                </tr>
+                <tr id="r5">
+                    <td><input type="text" name="5,1" id="5,1"></td>
+                    <td><input type="text" name="5,2" id="5,2"></td>
+                    <td id="c3"><input type="text" name="5,3" id="5,3"></td>
+                    <td><input type="text" name="5,4" id="5,4"></td>
+                    <td><input type="text" name="5,5" id="5,5"></td>
+                    <td id="c6"><input type="text" name="5,6" id="5,6"></td>
+                    <td><input type="text" name="5,7" id="5,7"></td>
+                    <td><input type="text" name="5,8" id="5,8"></td>
+                    <td><input type="text" name="5,9" id="5,9"></td>
+                </tr>
+                <tr id="r6">
+                    <td><input type="text" name="6,1" id="6,1"></td>
+                    <td><input type="text" name="6,2" id="6,2"></td>
+                    <td id="c3"><input type="text" name="6,3" id="6,3"></td>
+                    <td><input type="text" name="6,4" id="6,4"></td>
+                    <td><input type="text" name="6,5" id="6,5"></td>
+                    <td id="c6"><input type="text" name="6,6" id="6,6"></td>
+                    <td><input type="text" name="6,7" id="6,7"></td>
+                    <td><input type="text" name="6,8" id="6,8"></td>
+                    <td><input type="text" name="6,9" id="6,9"></td>
+                </tr>
+                <tr id="r7">
+                    <td><input type="text" name="7,1" id="7,1"></td>
+                    <td><input type="text" name="7,2" id="7,2"></td>
+                    <td id="c3"><input type="text" name="7,3" id="7,3"></td>
+                    <td><input type="text" name="7,4" id="7,4"></td>
+                    <td><input type="text" name="7,5" id="7,5"></td>
+                    <td id="c6"><input type="text" name="7,6" id="7,6"></td>
+                    <td><input type="text" name="7,7" id="7,7"></td>
+                    <td><input type="text" name="7,8" id="7,8"></td>
+                    <td><input type="text" name="7,9" id="7,9"></td>
+                </tr>
+                <tr id="r8">
+                    <td><input type="text" name="8,1" id="8,1"></td>
+                    <td><input type="text" name="8,2" id="8,2"></td>
+                    <td id="c3"><input type="text" name="8,3" id="8,3"></td>
+                    <td><input type="text" name="8,4" id="8,4"></td>
+                    <td><input type="text" name="8,5" id="8,5"></td>
+                    <td id="c6"><input type="text" name="8,6" id="8,6"></td>
+                    <td><input type="text" name="8,7" id="8,7"></td>
+                    <td><input type="text" name="8,8" id="8,8"></td>
+                    <td><input type="text" name="8,9" id="8,9"></td>
+                </tr>
+                <tr id="r9">
+                    <td><input type="text" name="9,1" id="9,1"></td>
+                    <td><input type="text" name="9,2" id="9,2"></td>
+                    <td id="c3"><input type="text" name="9,3" id="9,3"></td>
+                    <td><input type="text" name="9,4" id="9,4"></td>
+                    <td><input type="text" name="9,5" id="9,5"></td>
+                    <td id="c6"><input type="text" name="9,6" id="9,6"></td>
+                    <td><input type="text" name="9,7" id="9,7"></td>
+                    <td><input type="text" name="9,8" id="9,8"></td>
+                    <td><input type="text" name="9,9" id="9,9"></td>
+                </tr>
+            </table>
+            <div class="forms">
+                <button class="subbtn" type="submit" onclick="validateSudoku()">Submit</button>
+                <input class="rstbtn" type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    <script src="./verify.js"></script>
+</body>
+</html>

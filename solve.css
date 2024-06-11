@@ -1,0 +1,63 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+table
+{
+    margin-top: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+#r3,#r6
+{
+    border-bottom: 2px solid black;
+}
+#c3,#c6
+{
+    border-right: 2px solid black;
+}
+table input
+{
+    border: none;
+    width:35px;
+    height: 35px;
+    font-size: 19px;
+    text-align: center;
+}
+.form
+{
+    display: flex;
+    justify-content: center;
+}
+.form > input
+{
+    margin-top: 70px;
+    width: 100px;
+    height: 35px;
+    color: azure;
+    border-radius: 17px;
+    font-size: 14px;
+}
+.subbtn
+{
+    border:2px solid #037717;
+    background-color: #31ca2c;
+}
+.rstbtn
+{
+    margin-left: 80px;
+    border:2px solid darkred;
+    background-color: crimson;
+}
